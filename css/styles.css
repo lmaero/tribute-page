@@ -2,7 +2,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   margin: 0;
 }
 
@@ -19,7 +20,7 @@ h1 {
   color: white;
 }
 
-h2 {
+header {
   padding: 0.3em;
   box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -71,6 +72,11 @@ h2 {
   max-width: 920px;
 }
 
+#footer {
+  text-align: center;
+}
+
 p {
+  line-height: 1.75em;
   padding: 0.75em;
 }
